@@ -99,11 +99,11 @@ Instancja::Instancja(string filename)
     sort(maszyna1_dlugosci);
     sort(maszyna2_dlugosci);
 }
-void pierwsze(int Tau, int okres_nied, int cn, int t1, int t2, vector<int> kolej1, vector<int> kolej2, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci))
+void pierwsze()
 {
-    int zadanie_m1 = sort(maszyna1_dlugosci).begin()->first;
+    int zadanie_m1 = maszyna1_dlugosci.begin()->first;
     kolej1.push_back(zadanie_m1);
-    t1 = sort(maszyna1_dlugosci).begin()->second;
+    t1 = maszyna1_dlugosci.begin()->second;
     int zadanie_m2;
     int zadanie_m2_czas;
     if (t1 > cn) 
@@ -112,7 +112,7 @@ void pierwsze(int Tau, int okres_nied, int cn, int t1, int t2, vector<int> kolej
         okres_nied = t1 + Tau;
         t2 = t1;
 
-        for (auto &e1 : sort(maszyna2_dlugosci))
+        for (auto &e1 : maszyna2_dlugosci)
         {
             if (e1 == zadanie_m1)
             {
