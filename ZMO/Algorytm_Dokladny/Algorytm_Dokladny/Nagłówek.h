@@ -8,20 +8,21 @@
 using namespace std;
 
 vector<int> Konwersja_String(string text);
-bool cmp(pair<int, int>& a,pair<int, int>& b); //Funkcja porównuj¹ca potrzebna jest do sortuj¹cej
-void sort(map<int, int>& M); //Funkcja sortuj¹ca s³ownik sk³adaj¹cy siê z dwóch intów
+bool cmp(pair<int, int>& a,pair<int, int>& b); //Funkcja porÃ³wnujÄ…ca potrzebna jest do sortujÄ…cej
+void sort(map<int, int>& M); //Funkcja sortujÄ…ca sÅ‚ownik skÅ‚adajÄ…cy siÄ™ z dwÃ³ch intÃ³w
 class Instancja
 {
-	public:vector<int> dl_m1, dl_m2; //wektory zawieraj¹ce d³ugoœci zadañ na pierwszej i drugiej maszynie
-public:vector<int> kolej1;//kolejnosæ zadañ na maszynie 1
-public:vector<int> kolej2;//kolejnoœæ zadañ na maszynie 2
+	public:vector<int> dl_m1, dl_m2; //wektory zawierajÄ…ce dÅ‚ugoÅ›ci zadaÅ„ na pierwszej i drugiej maszynie
+public:vector<int> kolej1;//kolejnosÄ‡ zadaÅ„ na maszynie 1
+public:vector<int> kolej2;//kolejnoÅ›Ä‡ zadaÅ„ na maszynie 2
 	public:int Tau;
-	public:int cn; //czas niedostêpnoœci
+	public:int cn; //czas niedostÄ™pnoÅ›ci
 	public:int t1;//czas na pierwszej maszynie
 public:int t2;//czas na drugiej maszynie
-public:int okres_nied;//czas nastêpnego czasu niedostêpnoœci
-public:map<int, int> maszyna1_dlugosci; //s³ownik zawieraj¹cy d³ugoœci zadañ na pierwszej maszynie {nr zadania, d³ugoœæ}
-public:map<int, int> maszyna2_dlugosci; //s³ownik zawieraj¹cy d³ugoœci zadañ na drugiej maszynie {nr zadania, d³ugoœæ}
-	public:Instancja(string filename);
+public:int okres_nied;//czas nastÄ™pnego czasu niedostÄ™pnoÅ›ci
+public:map<int, int> maszyna1_dlugosci; //sÅ‚ownik zawierajÄ…cy dÅ‚ugoÅ›ci zadaÅ„ na pierwszej maszynie {nr zadania, dÅ‚ugoÅ›Ä‡}
+public:map<int, int> maszyna2_dlugosci; //sÅ‚ownik zawierajÄ…cy dÅ‚ugoÅ›ci zadaÅ„ na drugiej maszynie {nr zadania, dÅ‚ugoÅ›Ä‡}
+	public:Instancja(string filename, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci)) ;
+void pierwsze(int okres_nied, int cn, int t1, int t2, vector<int> kolej1, vector<int> kolej2, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci))
 	
 };
