@@ -7,7 +7,6 @@
 #include<map>
 using namespace std;
 
-void Wczytaj_Instancje(string filename);
 vector<int> Konwersja_String(string text);
 bool cmp(pair<int, int>& a,pair<int, int>& b); //Funkcja porównuj¹ca potrzebna jest do sortuj¹cej
 void sort(map<int, int>& M); //Funkcja sortuj¹ca s³ownik sk³adaj¹cy siê z dwóch intów

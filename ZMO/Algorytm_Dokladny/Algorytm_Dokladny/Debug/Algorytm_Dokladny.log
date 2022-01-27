@@ -1,4 +1,6 @@
-﻿  Functions.cpp
-C:\Users\Marysia\Documents\II stopien\I semestr\ZMO\Algorytm_Dokladny\Algorytm_Dokladny\Functions.cpp(63,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
-C:\Users\Marysia\Documents\II stopien\I semestr\ZMO\Algorytm_Dokladny\Algorytm_Dokladny\Functions.cpp(67,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+﻿  Algorytm_Dokladny.cpp
+  Functions.cpp
+C:\Users\Marysia\Documents\II stopien\I semestr\ZMO\Algorytm_Dokladny\Algorytm_Dokladny\Functions.cpp(90,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Marysia\Documents\II stopien\I semestr\ZMO\Algorytm_Dokladny\Algorytm_Dokladny\Functions.cpp(94,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Generowanie kodu...
   Algorytm_Dokladny.vcxproj -> C:\Users\Marysia\Documents\II stopien\I semestr\ZMO\Algorytm_Dokladny\Debug\Algorytm_Dokladny.exe

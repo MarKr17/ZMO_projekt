@@ -7,6 +7,33 @@
 #include "Nag³ówek.h"
 using namespace std;
 
+bool cmp(pair<int, int>& a, pair<int, int>& b)
+{
+        return a.second < b.second;
+}
+void sort(map<int, int>& M)
+{
+    // Declare vector of pairs
+    vector<pair<int, int> > A;
+
+    // Copy key-value pair from Map
+    // to vector of pairs
+    for (auto& it : M) {
+        A.push_back(it);
+    }
+
+    // Sort using comparator function
+    sort(A.begin(), A.end(), cmp);
+
+    // Print the sorted value
+    for (auto& it : A) {
+
+        cout << it.first << ' '
+            << it.second << endl;
+    }
+}
+
+
 vector<int> Konwersja_String(string text)
 {
     vector<int> wektor;
@@ -69,4 +96,6 @@ Instancja::Instancja(string filename)
         maszyna2_dlugosci.insert({ i, dl_m2[i] });
     }
 
+    sort(maszyna1_dlugosci);
+    sort(maszyna2_dlugosci);
 }
