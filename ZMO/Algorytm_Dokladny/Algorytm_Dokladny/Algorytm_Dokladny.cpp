@@ -7,7 +7,7 @@
 #include <fstream>
 #include<list>
 #include<map>
-#include "Nagłówek.h"
+#include "Header.h"
 
 
 
@@ -17,7 +17,17 @@ using namespace std;
 int main()
 {
    Instancja instancja("Instancja.txt");
-	
+   instancja.pierwsze();
+   cout << "---------------------" << endl;
+   for (int i = 0; i < instancja.kolej1.size();i++)
+   {
+	   cout << instancja.kolej1[i] << endl;
+   }
+   cout << "---------------------" << endl;
+   for (int i = 0; i < instancja.kolej2.size();i++)
+   {
+	   cout << instancja.kolej2[i] << endl;
+   }
    
 	
 }
