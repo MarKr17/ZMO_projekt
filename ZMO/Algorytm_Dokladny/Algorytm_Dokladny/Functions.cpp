@@ -104,23 +104,43 @@ void pierwsze(int Tau, int okres_nied, int cn, int t1, int t2, vector<int> kolej
     int zadanie_m1 = sort(maszyna1_dlugosci).begin()->first;
     kolej1.push_back(zadanie_m1);
     t1 = sort(maszyna1_dlugosci).begin()->second;
+    int zadanie_m2;
+    int zadanie_m2_czas;
     if (t1 > cn) 
     {
         kolej2.push_back(cn);
         okres_nied = t1 + Tau;
         t2 = t1;
-    }
-    for (auto& e1 : sort(maszyna2_dlugosci)) 
-    {
+
+        for (auto &e1 : sort(maszyna2_dlugosci))
+        {
             if (e1 == zadanie_m1)
             {
-                kolej2.push_back(e1);
-                t2 = t2 + e1.second;
+                zadanie_m2 = e1->first;
+                zadanie_m2_czas = e1->second;
+                kolej2.push_back(zadanie_m2);
+                t2 = t2 + e1->second;
             }
-            else 
+            else
             {
                 continue;
             }
+        }
     }
+    else
+    {
+        if (zadanie_m1 + zadanie_m2 <= Tau)
+        {
+            kolej2.push_back(zadanie_m2);
+            t2 = t1 + zadanie_m2_czas;
+        }
+        else
+        {
+            kolej2.push_back(cn);
+            kolej2.push_back(zadanie_m2);
+            t2 = cn + zadanie_m2_czas;
+        }
+    }
+  
 
 }
