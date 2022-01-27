@@ -4,7 +4,7 @@
 #include <fstream>
 #include <list>
 #include <sstream>
-#include "Nag³ówek.h"
+#include "NagÂ³Ã³wek.h"
 using namespace std;
 
 bool cmp(pair<int, int>& a, pair<int, int>& b)
@@ -86,7 +86,7 @@ Instancja::Instancja(string filename)
     cout << cn << endl;
     File.close();
     
-    //tworzenie s³owników
+    //tworzenie sÂ³ownikÃ³w
     for (int i = 0; i < dl_m1.size();i++)
     {
         maszyna1_dlugosci.insert({ i, dl_m1[i] });
@@ -98,4 +98,29 @@ Instancja::Instancja(string filename)
 
     sort(maszyna1_dlugosci);
     sort(maszyna2_dlugosci);
+}
+void pierwsze(int Tau, int okres_nied, int cn, int t1, int t2, vector<int> kolej1, vector<int> kolej2, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci))
+{
+    int zadanie_m1 = sort(maszyna1_dlugosci).begin()->first;
+    kolej1.push_back(zadanie_m1);
+    t1 = sort(maszyna1_dlugosci).begin()->second;
+    if (t1 > cn) 
+    {
+        kolej2.push_back(cn);
+        okres_nied = t1 + Tau;
+        t2 = t1;
+    }
+    for (auto& e1 : sort(maszyna2_dlugosci)) 
+    {
+            if (e1 == zadanie_m1)
+            {
+                kolej2.push_back(e1);
+                t2 = t2 + e1.second;
+            }
+            else 
+            {
+                continue;
+            }
+    }
+
 }
