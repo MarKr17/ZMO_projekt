@@ -7,9 +7,9 @@
 #include "Nag³ówek.h"
 using namespace std;
 
-list<int> Konwersja_String(string text)
+vector<int> Konwersja_String(string text)
 {
-    list<int> lista;
+    vector<int> wektor;
     
     stringstream ss;
     ss << text;
@@ -24,18 +24,19 @@ list<int> Konwersja_String(string text)
 
         /* Checking the given word is integer or not */
         if (stringstream(temp) >> found)
-            lista.push_back(found);
+            wektor.push_back(found);
 
         /* To save from space at the end of string */
         temp = "";
     }
-    list<int>::iterator it;
-    for (it = lista.begin(); it != lista.end(); ++it)
+    vector<int>::iterator it;
+    for (it = wektor.begin(); it != wektor.end(); ++it)
         cout << '\t' << *it;
     cout << '\n';
 
-    return lista;
+    return wektor;
 }
+
 Instancja::Instancja(string filename)
 {
     filesystem::path p = filesystem::current_path();
@@ -58,4 +59,14 @@ Instancja::Instancja(string filename)
     cout << cn << endl;
     File.close();
     
+    //tworzenie s³owników
+    for (int i = 0; i < dl_m1.size();i++)
+    {
+        maszyna1_dlugosci.insert({ i, dl_m1[i] });
+    }
+    for (int i = 0; i < dl_m1.size();i++)
+    {
+        maszyna2_dlugosci.insert({ i, dl_m2[i] });
+    }
+
 }
