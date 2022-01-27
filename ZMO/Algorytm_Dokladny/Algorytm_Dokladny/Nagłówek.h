@@ -23,6 +23,6 @@ public:int okres_nied;//czas następnego czasu niedostępności
 public:map<int, int> maszyna1_dlugosci; //słownik zawierający długości zadań na pierwszej maszynie {nr zadania, długość}
 public:map<int, int> maszyna2_dlugosci; //słownik zawierający długości zadań na drugiej maszynie {nr zadania, długość}
 	public:Instancja(string filename, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci)) ;
-void pierwsze(int okres_nied, int cn, int t1, int t2, vector<int> kolej1, vector<int> kolej2, sort(maszyna1_dlugosci), sort(maszyna2_dlugosci))
+void pierwsze();
 	
 };
