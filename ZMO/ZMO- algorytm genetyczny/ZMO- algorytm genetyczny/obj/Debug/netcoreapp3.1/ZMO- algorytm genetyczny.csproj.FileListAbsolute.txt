@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.AssemblyInfo.cs
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.exe
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.deps.json
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.runtimeconfig.json
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.runtimeconfig.dev.json
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.dll
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\bin\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.pdb
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.dll
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.pdb
+C:\Users\User\Desktop\BIOINFORMATYKA\OPTYMALIZACJA\ZMO- algorytm genetyczny\ZMO- algorytm genetyczny\obj\Debug\netcoreapp3.1\ZMO- algorytm genetyczny.genruntimeconfig.cache
